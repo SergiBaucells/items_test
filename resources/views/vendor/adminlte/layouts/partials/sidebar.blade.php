@@ -36,6 +36,8 @@
             <!-- Optionally, you can add icons to the links -->
             <li><a href="/items_per_borrar"><i class='fa fa-link'></i> <span>Items Vue</span></a></li>
             <li><a href="/items_php"><i class='fa fa-link'></i> <span>Items PHP</span></a></li>
+            <li class="header">Settings</li>
+            <li><a href="/tokens"><i class='fa fa-link'></i> <span>Tokens</span></a></li>
         </ul><!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->

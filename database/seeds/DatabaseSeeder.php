@@ -13,5 +13,6 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         factory(Item::class,50)->create();
+        Artisan::call('passport:install');
     }
 }
