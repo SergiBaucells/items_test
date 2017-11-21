@@ -32,12 +32,15 @@
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu">
             <li class="active"><a href="{{ url('home') }}"><i class='fa fa-link'></i> <span>{{ trans('adminlte_lang::message.home') }}</span></a></li>
-            <li class="header">Items</li>
+            <li class="header">Events</li>
             <!-- Optionally, you can add icons to the links -->
-            <li><a href="/items_per_borrar"><i class='fa fa-link'></i> <span>Items Vue</span></a></li>
-            <li><a href="/items_php"><i class='fa fa-link'></i> <span>Items PHP</span></a></li>
+            <li><a href="/events"><i class='fa fa-link'></i> <span>Events Vue</span></a></li>
+            <li><a href="/events_php"><i class='fa fa-link'></i> <span>Events PHP</span></a></li>
             <li class="header">Settings</li>
             <li><a href="/tokens"><i class='fa fa-link'></i> <span>Tokens</span></a></li>
+            <li class="header">Proves</li>
+            <li><a href="/proves"><i class='fa fa-link'></i> <span>Proves</span></a></li>
+
         </ul><!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->
